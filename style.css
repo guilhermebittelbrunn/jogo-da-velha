@@ -1,3 +1,5 @@
+/* Geral */
+
 body{
     margin: 0px;
     padding: 0px;
@@ -15,6 +17,8 @@ h1{
     color: white;
     font-weight: 900;
 }
+/* Container principal */
+
 .container{
     display: flex;
     justify-content: center;
@@ -86,6 +90,8 @@ section:hover::after{
     transition: .5s;
     width: 100%;
 }
+/* Tela final (ghost) */
+
 #end_game{
     display: none;
     justify-content: center;
@@ -110,11 +116,12 @@ section:hover::after{
     background-color: rgba(41, 41, 41, .9);
 }
 h2{
-    padding: 30px;
     color: white;
     font-size: 16px;
     font-family: serif;
 }
+/* @medias */
+
 @media screen and (max-height: 820px){
     .square{
         height: 125px;
